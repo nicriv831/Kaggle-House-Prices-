@@ -17,6 +17,7 @@ The dataset we're working with is a list of houses from the Ames, Iowa region. E
 
 # **Todos**
 * initial observations needs to be updated and cleaned up usibg train data
+* Make function for outliers
 
 
 
