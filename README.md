@@ -19,6 +19,9 @@ The dataset we're working with is a list of houses from the Ames, Iowa region. E
 * Initial observations needs to be updated and cleaned up usibg train data
 * Make function for outliers
 * Two or three actionable insights via data analysis
+* Living Area/ Lot Area
+* Bathrooms / Bedrooms
+* Garage remodel - year built
 
 
 # **Data cleaning items**
