@@ -7,7 +7,7 @@
 1. [Introduction](#introduction)
 2. [Data](#data)
 3. [Process Outline](#process-outline)
-   1. [Clean Data](#clean-data)
+   1. [Initial Observation/Clean](#clean-data)
    2. [Analyze Data](#analyze-data)
    3. [Preprocess Data for Model](#preprocess-data-for-model)
    4. [Model Prediction/Analysis](#model-prediction/analysis)
@@ -22,14 +22,25 @@ A client Pillo Corp. wants to create a model that will help them successfully pr
 The dataset we're working with is a list of houses from the Ames, Iowa region. Each row in the set is a property with 80 different unique features. Details about features of interest will be discussed in more detail throughout the process outlined below.
 
 ## 3 - Process Outline <a name="process-outline"></a>
-Dataset needed to be cleaned up to fit into machine learning model. On initial inspection, care needs to be taken before removing info as there are only 1480 rows.
+Process consisted of cleaning, analyzing, and preprocessing for model. Finally, prepared data was run through model for results.
 
-### 3a - Clean Data <a name="clean-data"></a>
-[Test Link](data_description.txt)
+### 3a - Initial Observations/Clean <a name="clean-data"></a>
+*[Click here] to jump to the notebook containing Exploratory Data Analysis*
+
+Dataset needed to be cleaned up to fit into machine learning model. C
+
+19 of the 80 features had NaNs to be addressed. 6 of these -- MasVnrType, MiscFeature, Alley, FireplaceQu, PoolQC and Fence -- had more than 45% missing values. Care needed to be taken before removing info as there are only 1480 rows.
+
+Set consists of sales made between 2006 and 2010. The median sale price is $163,000 with a minimum of $34,900 and a max of $755,000. EAch row on the dataset consists of a sale.
 
 ### 3b - Analyze Data <a name="analyze-data"></a>
 
+Correlatiomn heatmap
+Scatterplot of Overall Cond vs Qual
+Added columns
+
 ### 3c - Preprocess Data for Model <a name="preprocess-data-for-model"></a>
+*[Click here] to jump to the notebook containing proprocessing and model training*
 
 ### 3d - Model Prediction/Analysis <a name="model-prediction/analysis"></a>
 
