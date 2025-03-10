@@ -27,7 +27,7 @@ Process consisted of cleaning, analyzing, and preprocessing for model. Finally, 
 ### 3a - Initial Observations/Clean <a name="clean-data"></a>
 *[Click here](Notebooks/khp-EDA.ipynb) to jump to the notebook containing Exploratory Data Analysis*
 
-*[Click here](Data-and-Notes/data_description.txt) to jump to the Data Dictionary*
+*[Click here](Data%20and%20Notes/data_description.txt) to jump to the Data Dictionary*
 
 Dataset needed to be cleaned up to fit into machine learning model.
 
