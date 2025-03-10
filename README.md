@@ -25,8 +25,9 @@ The dataset we're working with is a list of houses from the Ames, Iowa region. E
 Process consisted of cleaning, analyzing, and preprocessing for model. Finally, prepared data was run through model for results.
 
 ### 3a - Initial Observations/Clean <a name="clean-data"></a>
-*[Click here] to jump to the notebook containing Exploratory Data Analysis*
-*[Click here] to jump to the Data Dictionary*
+*[Click here](Notebooks/khp-EDA.ipynb) to jump to the notebook containing Exploratory Data Analysis*
+
+*[Click here](Data-and-Notes/data_description.txt) to jump to the Data Dictionary*
 
 Dataset needed to be cleaned up to fit into machine learning model.
 
@@ -76,7 +77,7 @@ Two columns were added to the dataset for the model to look at -
 Neither of these showed a strong correlation either way to the target, but were left in the dataset for the model's use
 
 ### 3c - Preprocess Data for Model <a name="preprocess-data-for-model"></a>
-*[Click here] to jump to the notebook containing preprocessing and model training*
+*[Click here](Notebooks/khp-train3.ipynb) to jump to the notebook containing preprocessing and model training*
 
 Data was preprocessed according to above outline with the intention of running through a linear regression and decision tree model. Decision tree ideal depth was determined with a grid search cross validation. Pipelines were created to ensure no data leakage and ensure reliable copying of model
 
