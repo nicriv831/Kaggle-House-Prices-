@@ -34,7 +34,10 @@ Dataset needed to be cleaned up to fit into machine learning model. C
 Set consists of sales made between 2006 and 2010. The median sale price is $163,000 with a minimum of $34,900 and a max of $755,000. EAch row on the dataset consists of a sale.
 
 ### 3b - Analyze Data <a name="analyze-data"></a>
+<u>Sale Price</u>
 
+Sale Price Distirbution/Log
+MasVnrType, MiscFeature, Alley, FireplaceQu, PoolQC and Fence
 Correlatiomn heatmap
 Scatterplot of Overall Cond vs Qual
 Added columns
@@ -44,7 +47,10 @@ Added columns
 
 ### 3d - Model Prediction/Analysis <a name="model-prediction/analysis"></a>
 
-## 4 - Next Seps <a name="next-steps"></a>
+
+
+
+## 4 - Next Steps <a name="next-steps"></a>
 
 1. Create joblib file to save models fit. This will allow cleaner presentation with a separate notebook each for pipeline and model management, rather than a single notebook like it is now.
 2. Try different methods for cleaning and encoding data, to try and improve model predictions
