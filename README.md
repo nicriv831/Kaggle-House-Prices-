@@ -4,7 +4,7 @@
 
 ## Table of Contents
 
-1. [Introduction](#1-introduction)
+1. [Introduction](#introduction)
 2. [Data](#data)
 3. [Process Outline](#process-outline)
    1. [Clean Data](#clean-data)
@@ -27,17 +27,21 @@ Dataset will need to be cleaned up to fit into machine learning model.
 ### 3a - Clean Data <a name="clean-data"></a>
 ### 3b - Analye Data <a name="analyze-data"></a>
 ### 3c - Preprocess Data for Model <a name="preprocess-data-for-model"></a>
-### 3d - 4. Model Prediction/Analysis <a name="model-prediction/analysis"></a>
+
+
+### 3d - Model Prediction/Analysis <a name="model-prediction/analysis"></a>
 
 ## 4 - Next Seps <a name="next-steps"></a>
 
+1. Create joblib file to save models fit. This will allow cleanre presentation with a separate notebook each for pipeline and model management, rather than a single notebook like it is now.
+2. Try different methods for cleaning and encoding data, to try and improve model predictions
+3. Try out various other models, along with cleaning methdos address above, to get the final log RMSE below .13897
+
 ## References <a name="references"></a>
 
-  * Analyze data
-  * Two or three actionable insights via data analysis
-  * Pipeline data
-  * Fit and transform
-  * Figure out best model to use -- 40% cutoff is **.13897**
+*Map of Ames, Iowa* - <a href="https://commons.wikimedia.org/wiki/File:Ames_map.png">PeryPlanet</a>, Public domain, via Wikimedia Commons
+
+
 
 
 
